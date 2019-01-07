@@ -1,0 +1,22 @@
+{
+  "name": "nextcloud.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
+  "avatar": "/ipfs/QmQrgisacpyLpVynA6BriqUhd6qwpeyiNM8pJGH7NKJ9J9",
+  "type": "service",
+  "image": {
+    "path": "nextcloud.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmRcbzSvWGaz1hnPxpgB8Pceth4m6DSs1cgqQS1jvPzDVv",
+    "size": 110088933,
+    "restart": "always",
+    "volumes": [
+      "nextcloudpublicdappnodeeth_data:/var/www/html"
+    ],
+    "ports": [],
+    "keywords": [
+      "Cloud,Storage,Office"
+    ]
+  },
+  "author": "vdo",
+  "license": "AGPLv3"
+}

@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+    nextcloud.public.dappnode.eth:
+        image: 'nextcloud.public.dappnode.eth:0.0.1'
+        build: ./build
+        volumes:
+            - 'nextcloudpublicdappnodeeth_data:/var/www/html'
+        ports:
+            - '8034'
+volumes:
+    nextcloudpublicdappnodeeth_data: {}
